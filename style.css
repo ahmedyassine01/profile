@@ -1,0 +1,52 @@
+ul{
+color: rgb(118, 160, 115);
+font-size: larger;
+font-weight: 700;
+text-align: end;
+justify-content:space-around ;
+text-decoration: none;
+}
+h2{
+    color: rgb(211, 1, 1);
+}
+nav{
+background-color: rgb(20, 172, 114);
+
+}
+div{
+    padding: 10px;
+    border: 5px dashed greenyellow;
+    margin: 15px;
+}
+#home{
+    background-color: rgb(5, 138, 36);
+}
+#about{
+    background-color: rgb(96, 188, 15);
+}
+#work{
+    background-color: rgb(0, 255, 166);
+}
+#resume{
+    background-color: rgb(24, 173, 83);
+}
+#contact{
+    background-color: rgb(127, 255, 157);
+}
+img{
+    height: 150px;
+}
+#home img ::after{
+    height: 170px
+}
+ul{display: flex;
+margin: 20px;}
+body{
+    background-image: url(https://th.bing.com/th/id/R.0c6ec665d5316e8e08500ac15f530a9e?rik=2D5skp2bF58pNg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f05%2fDownload-wallpaper-for-pc.jpg&ehk=%2fC%2feQRX%2fcLjGq4eGzvKPRtgKpo%2bsedFnaIW4%2fNKAYJ4%3d&risl=&pid=ImgRaw&r=0);
+}
+footer{
+    color: aliceblue;
+}
+
+
+
