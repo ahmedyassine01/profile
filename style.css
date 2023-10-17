@@ -1,17 +1,34 @@
-ul{
-color: rgb(118, 160, 115);
+.navbar  ul{
+    background-color: #050505;
 font-size: larger;
 font-weight: 700;
 text-align: end;
 justify-content:space-around ;
 text-decoration: none;
+display:flex;
+justify-content: space-between
+}
+.navbar ul li a{
+    padding: 12px;
+    margin: 0,6px;
+    border-radius: 6px;
+}
+.navbar ul li a:hover{
+    color:black;
+    background-color: yellowgreen;
+}
+
+.logo_title{
+    color: bisque;
+    display: flex;
+    justify-content: center;
 }
 h2{
     color: rgb(211, 1, 1);
 }
 nav{
 background-color: rgb(20, 172, 114);
-
+text-decoration: none;
 }
 div{
     padding: 10px;
@@ -42,11 +59,13 @@ img{
 ul{display: flex;
 margin: 20px;}
 body{
+    font-family: 'Roboto',sans-serif;
     background-image: url(https://th.bing.com/th/id/R.0c6ec665d5316e8e08500ac15f530a9e?rik=2D5skp2bF58pNg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f05%2fDownload-wallpaper-for-pc.jpg&ehk=%2fC%2feQRX%2fcLjGq4eGzvKPRtgKpo%2bsedFnaIW4%2fNKAYJ4%3d&risl=&pid=ImgRaw&r=0);
 }
 footer{
     color: aliceblue;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 
 
